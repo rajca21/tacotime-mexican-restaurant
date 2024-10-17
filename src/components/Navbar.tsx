@@ -4,14 +4,9 @@ import { RxHamburgerMenu } from 'react-icons/rx';
 import { FaFacebookF, FaInstagram, FaTiktok } from 'react-icons/fa';
 
 import '../styles/Navbar.css';
-import ButtonComponent from './ButtonComponent';
 
 const Navbar = () => {
   const [openSidebar, setOpenSidebar] = useState(false);
-
-  const handleButtonClick = () => {
-    console.log('Button clicked!');
-  };
 
   return (
     <>
@@ -153,7 +148,6 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      {/* <ButtonComponent onButtonClick={handleButtonClick} /> */}
     </>
   );
 };
